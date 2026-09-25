@@ -9,8 +9,8 @@ st.set_page_config(page_title="House Price Predictor", page_icon="🏠")
 st.title("🏠 California House Price Predictor")
 st.write("Enter the housing details to estimate the median house value.")
 
-MODEL_ID = "https://drive.google.com/file/d/1bE_vT55cMRa6L6byzkhT8F_e_wE_BcZ1/view?usp=sharing"
-SCALER_ID = "https://drive.google.com/file/d/1jzxXuMwemOl8PCCzjkFUR9luEH2bBOCN/view?usp=sharing"
+MODEL_ID = https://drive.google.com/file/d/1bE_vT55cMRa6L6byzkhT8F_e_wE_BcZ1/view?usp=sharing
+SCALER_ID = https://drive.google.com/file/d/1jzxXuMwemOl8PCCzjkFUR9luEH2bBOCN/view?usp=sharing
 
 @st.cache_resource
 def load_assets():
